@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@layer base {
+  html, body, #root {
+    @apply m-0 p-0 w-full h-full;
+  }
+
+  body {
+    @apply bg-black text-white;
+  }
+}
+
+/* Custom classes that are easier to keep or use as utilities */
+.canvasWrap {
+  @apply h-full w-full block;
+}
+
+.page {
+  @apply w-full h-full;
+}
