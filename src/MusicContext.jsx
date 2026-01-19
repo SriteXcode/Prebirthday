@@ -80,7 +80,7 @@ export function MusicProvider({ children }) {
       {children}
       <audio 
         ref={audioRef} 
-        src="/music.mp3" 
+        src="music.mp3" 
         loop 
         crossOrigin="anonymous" 
         style={{ display: 'none' }}
